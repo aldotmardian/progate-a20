@@ -56,6 +56,9 @@ a {
 
 .signup {
   background-color: #14399e;
+  padding: 15px 40px;
+  cursor: pointer;
+  box-shadow: 0 7px #071d53;
 }
 
 .fa-facebook {
@@ -182,13 +185,19 @@ header {
 }
 
 .message {
+  background-color: #14399e;
   padding: 15px 40px;
-  background-color: #5dca88;
   cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+  box-shadow: 0 7px #071d53;
 }
 
 .message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+.signup:active {
   position: relative;
   top: 7px;
   box-shadow: none;
