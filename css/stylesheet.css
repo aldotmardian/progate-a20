@@ -224,13 +224,14 @@ footer img {
 }
 
 footer p {
-  color: #b3aeb5;
+  color: white;
   font-size: 12px;
 }
 
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
+  background-color:  rgb(38,44,118);
 }
 
 .bg-full {
