@@ -28,7 +28,7 @@ a {
 
 .top-wrapper {
   padding: 180px 0 100px 0;
-  color: black;
+  color: rgb(30,30, 30);
   text-align: center;
   background-color: rgba(255, 255, 255, 0.4);
 }
@@ -121,6 +121,40 @@ header {
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
 }
+.contact{
+  background-color: #eee;
+  padding: 0 300px 80px 300px;
+}
+.contact-form{
+  width: 100%; 
+  /*margin: 0 200px;*/
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 15px; /* Some padding */ 
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #14399e;
+  color: white;
+  padding: 12px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #071d53;
+}
 
 /* Tambahkan CSS untuk menu-icon */
 .menu-icon {
@@ -141,13 +175,14 @@ header {
 }
 
 .heading {
-  padding-top: 80px;
+  padding-top: 50px;
   padding-bottom: 50px;
   color: #000000;
 }
 
 .heading h2 {
   font-weight: normal;
+  text-align: center;
 }
 
 .lesson {
@@ -231,7 +266,7 @@ footer p {
 footer {
   padding-top: 30px;
   padding-bottom: 20px;
-  background-color:  rgb(38,44,118);
+  background-color:  rgb(30,30,30);
 }
 
 .bg-full {
